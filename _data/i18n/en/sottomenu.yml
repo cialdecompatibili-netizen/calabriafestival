@@ -1,1 +1,22 @@
 # English dropdown menus (empty = none). Each key must be IDENTICAL to a title in navigation.yml of this folder.
+
+Shop:
+  - title: "Hot and 'nduja"
+    url: /en/shop/category/hot-nduja/
+  - title: "Tropea red onion"
+    url: /en/shop/category/tropea-onion/
+  - title: "Liquorice and bergamot"
+    url: /en/shop/category/liquorice-bergamot/
+  - title: "Oil and preserves"
+    url: /en/shop/category/oil-preserves/
+  - title: "Sweets and figs"
+    url: /en/shop/category/sweets-figs/
+  - title: "Pasta and legumes"
+    url: /en/shop/category/pasta-legumes/
+  - title: "Liqueurs and wines"
+    url: /en/shop/category/liqueurs-wines/
+  - title: "Boxes and festival"
+    url: /en/shop/category/boxes-festival/
+  - divider: true
+  - title: "The whole shop"
+    url: /en/shop/

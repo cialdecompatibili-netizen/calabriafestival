@@ -31,3 +31,24 @@
 # Per levare una tendina: cancella il blocco, la voce torna un link normale.
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
+
+Shop:
+  - title: "Piccanti e 'nduja"
+    url: /negozio/categoria/piccanti/
+  - title: "Cipolla rossa di Tropea"
+    url: /negozio/categoria/cipolla-tropea/
+  - title: "Liquirizia e bergamotto"
+    url: /negozio/categoria/liquirizia-bergamotto/
+  - title: "Olio e conserve"
+    url: /negozio/categoria/olio-conserve/
+  - title: "Dolci e fichi"
+    url: /negozio/categoria/dolci-fichi/
+  - title: "Pasta e legumi"
+    url: /negozio/categoria/pasta-legumi/
+  - title: "Liquori e vini"
+    url: /negozio/categoria/liquori/
+  - title: "Box e festival"
+    url: /negozio/categoria/box/
+  - divider: true
+  - title: "Tutto il negozio"
+    url: /negozio/
