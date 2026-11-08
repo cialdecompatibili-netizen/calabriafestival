@@ -1,36 +1,543 @@
 {
-  "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
-  "categorie": [
-    {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
-      "tr": {
-        "en": {
-          "nome": "Example"
-        }
-      }
+ "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
+ "categorie": [
+  {
+   "nome": "Piccanti e 'nduja",
+   "id": "piccanti",
+   "icona": "🌶️",
+   "tr": {
+    "en": {
+     "nome": "Hot and 'nduja"
     }
-  ],
-  "prodotti": [
-    {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
-      "immagine": "",
-      "icona": "🛍️",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
-        }
-      }
+   }
+  },
+  {
+   "nome": "Cipolla rossa di Tropea",
+   "id": "cipolla-tropea",
+   "icona": "🧅",
+   "tr": {
+    "en": {
+     "nome": "Tropea red onion"
     }
-  ]
+   }
+  },
+  {
+   "nome": "Liquirizia e bergamotto",
+   "id": "liquirizia-bergamotto",
+   "icona": "🍋",
+   "tr": {
+    "en": {
+     "nome": "Liquorice and bergamot"
+    }
+   }
+  },
+  {
+   "nome": "Olio e conserve",
+   "id": "olio-conserve",
+   "icona": "🫒",
+   "tr": {
+    "en": {
+     "nome": "Oil and preserves"
+    }
+   }
+  },
+  {
+   "nome": "Dolci e fichi",
+   "id": "dolci-fichi",
+   "icona": "🍪",
+   "tr": {
+    "en": {
+     "nome": "Sweets and figs"
+    }
+   }
+  },
+  {
+   "nome": "Pasta e legumi",
+   "id": "pasta-legumi",
+   "icona": "🍝",
+   "tr": {
+    "en": {
+     "nome": "Pasta and legumes"
+    }
+   }
+  },
+  {
+   "nome": "Liquori e vini",
+   "id": "liquori",
+   "icona": "🍷",
+   "tr": {
+    "en": {
+     "nome": "Liqueurs and wines"
+    }
+   }
+  },
+  {
+   "nome": "Box e festival",
+   "id": "box",
+   "icona": "🎁",
+   "tr": {
+    "en": {
+     "nome": "Boxes and festival"
+    }
+   }
+  }
+ ],
+ "prodotti": [
+  {
+   "tipo": "fisico",
+   "id": "nduja-200",
+   "nome": "'Nduja calabrese - 200 g",
+   "categoria": "piccanti",
+   "prezzo_centesimi": 990,
+   "descrizione": "Salume spalmabile piccante per pane, pasta e pizza.",
+   "descrizione_completa": "Salume spalmabile piccante per pane, pasta e pizza.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian 'nduja - 200 g",
+     "descrizione": "Spicy spreadable cured meat for bread, pasta and pizza.",
+     "descrizione_completa": "Spicy spreadable cured meat for bread, pasta and pizza."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "peperoncino-secco-100",
+   "nome": "Peperoncino calabrese secco - 100 g",
+   "categoria": "piccanti",
+   "prezzo_centesimi": 590,
+   "descrizione": "Peperoncini interi essiccati per sughi, oli e arrosti.",
+   "descrizione_completa": "Peperoncini interi essiccati per sughi, oli e arrosti.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Dried Calabrian chili - 100 g",
+     "descrizione": "Whole dried chilies for sauces, oils and roasts.",
+     "descrizione_completa": "Whole dried chilies for sauces, oils and roasts."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "crema-peperoncino-190",
+   "nome": "Crema di peperoncino - 190 g",
+   "categoria": "piccanti",
+   "prezzo_centesimi": 690,
+   "descrizione": "Crema piccante per crostini e condimenti.",
+   "descrizione_completa": "Crema piccante per crostini e condimenti.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Chili cream - 190 g",
+     "descrizione": "Hot cream for crostini and dressings.",
+     "descrizione_completa": "Hot cream for crostini and dressings."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "soppressata-400",
+   "nome": "Soppressata piccante - 400 g",
+   "categoria": "piccanti",
+   "prezzo_centesimi": 1390,
+   "descrizione": "Soppressata stagionata con peperoncino.",
+   "descrizione_completa": "Soppressata stagionata con peperoncino.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Spicy soppressata - 400 g",
+     "descrizione": "Aged soppressata with chili.",
+     "descrizione_completa": "Aged soppressata with chili."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "cipolla-tropea-1kg",
+   "nome": "Cipolla rossa di Tropea - 1 kg",
+   "categoria": "cipolla-tropea",
+   "prezzo_centesimi": 550,
+   "descrizione": "Cipolle rosse dolci, ottime crude e in agrodolce.",
+   "descrizione_completa": "Cipolle rosse dolci, ottime crude e in agrodolce.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Tropea red onion - 1 kg",
+     "descrizione": "Sweet red onions, great raw and in sweet-and-sour dishes.",
+     "descrizione_completa": "Sweet red onions, great raw and in sweet-and-sour dishes."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "confettura-tropea-220",
+   "nome": "Confettura di cipolla di Tropea - 220 g",
+   "categoria": "cipolla-tropea",
+   "prezzo_centesimi": 650,
+   "descrizione": "Confettura dolce per formaggi e carni.",
+   "descrizione_completa": "Confettura dolce per formaggi e carni.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Tropea onion jam - 220 g",
+     "descrizione": "Sweet jam for cheeses and meats.",
+     "descrizione_completa": "Sweet jam for cheeses and meats."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "tropea-sottolio-280",
+   "nome": "Cipolla di Tropea sott'olio - 280 g",
+   "categoria": "cipolla-tropea",
+   "prezzo_centesimi": 790,
+   "descrizione": "Cipolla in olio da servire con salumi.",
+   "descrizione_completa": "Cipolla in olio da servire con salumi.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Tropea onion in oil - 280 g",
+     "descrizione": "Onion in oil to serve with cured meats.",
+     "descrizione_completa": "Onion in oil to serve with cured meats."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "liquirizia-bastoncini-200",
+   "nome": "Liquirizia di Calabria in bastoncini - 200 g",
+   "categoria": "liquirizia-bergamotto",
+   "prezzo_centesimi": 690,
+   "descrizione": "Bastoncini di liquirizia pura da masticare.",
+   "descrizione_completa": "Bastoncini di liquirizia pura da masticare.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian liquorice sticks - 200 g",
+     "descrizione": "Pure liquorice sticks to chew.",
+     "descrizione_completa": "Pure liquorice sticks to chew."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "liquirizia-spezzatina-150",
+   "nome": "Liquirizia spezzata - 150 g",
+   "categoria": "liquirizia-bergamotto",
+   "prezzo_centesimi": 590,
+   "descrizione": "Pezzi di liquirizia per infusi e dolci.",
+   "descrizione_completa": "Pezzi di liquirizia per infusi e dolci.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Broken liquorice - 150 g",
+     "descrizione": "Liquorice pieces for infusions and sweets.",
+     "descrizione_completa": "Liquorice pieces for infusions and sweets."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "marmellata-bergamotto-220",
+   "nome": "Marmellata di bergamotto - 220 g",
+   "categoria": "liquirizia-bergamotto",
+   "prezzo_centesimi": 690,
+   "descrizione": "Marmellata profumata di bergamotto, tipica di Reggio Calabria.",
+   "descrizione_completa": "Marmellata profumata di bergamotto, tipica di Reggio Calabria.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Bergamot marmalade - 220 g",
+     "descrizione": "Fragrant bergamot marmalade, typical of Reggio Calabria.",
+     "descrizione_completa": "Fragrant bergamot marmalade, typical of Reggio Calabria."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "olio-evo-500",
+   "nome": "Olio extravergine calabrese - 500 ml",
+   "categoria": "olio-conserve",
+   "prezzo_centesimi": 1190,
+   "descrizione": "Olio extravergine in bottiglia da 500 ml.",
+   "descrizione_completa": "Olio extravergine in bottiglia da 500 ml.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian extra virgin olive oil - 500 ml",
+     "descrizione": "Extra virgin olive oil in a 500 ml bottle.",
+     "descrizione_completa": "Extra virgin olive oil in a 500 ml bottle."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "melanzane-sottolio-280",
+   "nome": "Melanzane sott'olio - 280 g",
+   "categoria": "olio-conserve",
+   "prezzo_centesimi": 750,
+   "descrizione": "Melanzane sott'olio con peperoncino.",
+   "descrizione_completa": "Melanzane sott'olio con peperoncino.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Aubergines in oil - 280 g",
+     "descrizione": "Aubergines in oil with chili.",
+     "descrizione_completa": "Aubergines in oil with chili."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "peperoncini-ripieni-280",
+   "nome": "Peperoncini ripieni - 280 g",
+   "categoria": "olio-conserve",
+   "prezzo_centesimi": 790,
+   "descrizione": "Peperoncini ripieni, antipasto calabrese.",
+   "descrizione_completa": "Peperoncini ripieni, antipasto calabrese.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Stuffed chilies - 280 g",
+     "descrizione": "Stuffed chilies, a Calabrian starter.",
+     "descrizione_completa": "Stuffed chilies, a Calabrian starter."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "fichi-secchi-300",
+   "nome": "Fichi secchi di Calabria - 300 g",
+   "categoria": "dolci-fichi",
+   "prezzo_centesimi": 890,
+   "descrizione": "Fichi secchi, anche da farcire con noci e mandorle.",
+   "descrizione_completa": "Fichi secchi, anche da farcire con noci e mandorle.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian dried figs - 300 g",
+     "descrizione": "Dried figs, also to stuff with walnuts and almonds.",
+     "descrizione_completa": "Dried figs, also to stuff with walnuts and almonds."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "fichi-cioccolato-200",
+   "nome": "Fichi al cioccolato - 200 g",
+   "categoria": "dolci-fichi",
+   "prezzo_centesimi": 990,
+   "descrizione": "Fichi ricoperti di cioccolato fondente.",
+   "descrizione_completa": "Fichi ricoperti di cioccolato fondente.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Chocolate figs - 200 g",
+     "descrizione": "Figs coated in dark chocolate.",
+     "descrizione_completa": "Figs coated in dark chocolate."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "mostaccioli-250",
+   "nome": "Mostaccioli calabresi - 250 g",
+   "categoria": "dolci-fichi",
+   "prezzo_centesimi": 850,
+   "descrizione": "Biscotti tradizionali glassati, tipici delle feste.",
+   "descrizione_completa": "Biscotti tradizionali glassati, tipici delle feste.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian mostaccioli - 250 g",
+     "descrizione": "Traditional glazed biscuits, typical of the holidays.",
+     "descrizione_completa": "Traditional glazed biscuits, typical of the holidays."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "fileja-500",
+   "nome": "Fileja artigianali - 500 g",
+   "categoria": "pasta-legumi",
+   "prezzo_centesimi": 590,
+   "descrizione": "Pasta fatta a mano tipica della Calabria.",
+   "descrizione_completa": "Pasta fatta a mano tipica della Calabria.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Artisan fileja - 500 g",
+     "descrizione": "Handmade pasta typical of Calabria.",
+     "descrizione_completa": "Handmade pasta typical of Calabria."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "fagioli-poverello-500",
+   "nome": "Legumi calabresi - 500 g",
+   "categoria": "pasta-legumi",
+   "prezzo_centesimi": 550,
+   "descrizione": "Legumi secchi da zuppe e contorni.",
+   "descrizione_completa": "Legumi secchi da zuppe e contorni.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian legumes - 500 g",
+     "descrizione": "Dried legumes for soups and sides.",
+     "descrizione_completa": "Dried legumes for soups and sides."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "liquore-peperoncino-50cl",
+   "nome": "Liquore al peperoncino - 50 cl",
+   "categoria": "liquori",
+   "prezzo_centesimi": 1590,
+   "descrizione": "Liquore dolce e piccante.",
+   "descrizione_completa": "Liquore dolce e piccante.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Chili liqueur - 50 cl",
+     "descrizione": "Sweet and spicy liqueur.",
+     "descrizione_completa": "Sweet and spicy liqueur."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "amaro-erbe-50cl",
+   "nome": "Amaro calabrese alle erbe - 50 cl",
+   "categoria": "liquori",
+   "prezzo_centesimi": 1490,
+   "descrizione": "Amaro alle erbe, da servire freddo.",
+   "descrizione_completa": "Amaro alle erbe, da servire freddo.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian herbal bitters - 50 cl",
+     "descrizione": "Herbal bitters, served cold.",
+     "descrizione_completa": "Herbal bitters, served cold."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "vino-rosso-75cl",
+   "nome": "Vino rosso calabrese - 75 cl",
+   "categoria": "liquori",
+   "prezzo_centesimi": 1290,
+   "descrizione": "Vino rosso calabrese da carni e salumi.",
+   "descrizione_completa": "Vino rosso calabrese da carni e salumi.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabrian red wine - 75 cl",
+     "descrizione": "Calabrian red wine for meats and cured meats.",
+     "descrizione_completa": "Calabrian red wine for meats and cured meats."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "box-festival",
+   "nome": "Box festival della Calabria",
+   "categoria": "box",
+   "prezzo_centesimi": 3990,
+   "descrizione": "Selezione dei prodotti più richiesti ai festival.",
+   "descrizione_completa": "Selezione dei prodotti più richiesti ai festival.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Calabria festival box",
+     "descrizione": "A selection of the most requested festival products.",
+     "descrizione_completa": "A selection of the most requested festival products."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "box-piccante",
+   "nome": "Box assaggio piccante",
+   "categoria": "box",
+   "prezzo_centesimi": 2990,
+   "descrizione": "'Nduja, crema di peperoncino, peperoncino e miele.",
+   "descrizione_completa": "'Nduja, crema di peperoncino, peperoncino e miele.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Spicy tasting box",
+     "descrizione": "'Nduja, chili cream, chili and honey.",
+     "descrizione_completa": "'Nduja, chili cream, chili and honey."
+    }
+   }
+  },
+  {
+   "tipo": "fisico",
+   "id": "box-natale",
+   "nome": "Box regalo di Natale",
+   "categoria": "box",
+   "prezzo_centesimi": 4990,
+   "descrizione": "Salumi, conserve, dolci e liquore in confezione regalo.",
+   "descrizione_completa": "Salumi, conserve, dolci e liquore in confezione regalo.",
+   "immagine": "",
+   "icona": "",
+   "visibile": true,
+   "tr": {
+    "en": {
+     "nome": "Christmas gift box",
+     "descrizione": "Cured meats, preserves, sweets and liqueur in a gift pack.",
+     "descrizione_completa": "Cured meats, preserves, sweets and liqueur in a gift pack."
+    }
+   }
+  }
+ ]
 }
