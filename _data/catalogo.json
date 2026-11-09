@@ -91,7 +91,7 @@
    "prezzo_centesimi": 990,
    "descrizione": "Salume spalmabile piccante per pane, pasta e pizza.",
    "descrizione_completa": "Salume spalmabile piccante per pane, pasta e pizza.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/nduja-200.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -110,7 +110,7 @@
    "prezzo_centesimi": 590,
    "descrizione": "Peperoncini interi essiccati per sughi, oli e arrosti.",
    "descrizione_completa": "Peperoncini interi essiccati per sughi, oli e arrosti.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/peperoncino-secco-100.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -129,7 +129,7 @@
    "prezzo_centesimi": 690,
    "descrizione": "Crema piccante per crostini e condimenti.",
    "descrizione_completa": "Crema piccante per crostini e condimenti.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/crema-peperoncino-190.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -148,7 +148,7 @@
    "prezzo_centesimi": 1390,
    "descrizione": "Soppressata stagionata con peperoncino.",
    "descrizione_completa": "Soppressata stagionata con peperoncino.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/soppressata-400.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -167,7 +167,7 @@
    "prezzo_centesimi": 550,
    "descrizione": "Cipolle rosse dolci, ottime crude e in agrodolce.",
    "descrizione_completa": "Cipolle rosse dolci, ottime crude e in agrodolce.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/cipolla-tropea-1kg.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -186,7 +186,7 @@
    "prezzo_centesimi": 650,
    "descrizione": "Confettura dolce per formaggi e carni.",
    "descrizione_completa": "Confettura dolce per formaggi e carni.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/confettura-tropea-220.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -205,7 +205,7 @@
    "prezzo_centesimi": 790,
    "descrizione": "Cipolla in olio da servire con salumi.",
    "descrizione_completa": "Cipolla in olio da servire con salumi.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/tropea-sottolio-280.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -224,7 +224,7 @@
    "prezzo_centesimi": 690,
    "descrizione": "Bastoncini di liquirizia pura da masticare.",
    "descrizione_completa": "Bastoncini di liquirizia pura da masticare.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/liquirizia-bastoncini-200.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -243,7 +243,7 @@
    "prezzo_centesimi": 590,
    "descrizione": "Pezzi di liquirizia per infusi e dolci.",
    "descrizione_completa": "Pezzi di liquirizia per infusi e dolci.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/liquirizia-spezzatina-150.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -262,7 +262,7 @@
    "prezzo_centesimi": 690,
    "descrizione": "Marmellata profumata di bergamotto, tipica di Reggio Calabria.",
    "descrizione_completa": "Marmellata profumata di bergamotto, tipica di Reggio Calabria.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/marmellata-bergamotto-220.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -281,7 +281,7 @@
    "prezzo_centesimi": 1190,
    "descrizione": "Olio extravergine in bottiglia da 500 ml.",
    "descrizione_completa": "Olio extravergine in bottiglia da 500 ml.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/olio-evo-500.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -300,7 +300,7 @@
    "prezzo_centesimi": 750,
    "descrizione": "Melanzane sott'olio con peperoncino.",
    "descrizione_completa": "Melanzane sott'olio con peperoncino.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/melanzane-sottolio-280.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -319,7 +319,7 @@
    "prezzo_centesimi": 790,
    "descrizione": "Peperoncini ripieni, antipasto calabrese.",
    "descrizione_completa": "Peperoncini ripieni, antipasto calabrese.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/peperoncini-ripieni-280.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -338,7 +338,7 @@
    "prezzo_centesimi": 890,
    "descrizione": "Fichi secchi, anche da farcire con noci e mandorle.",
    "descrizione_completa": "Fichi secchi, anche da farcire con noci e mandorle.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/fichi-secchi-300.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -357,7 +357,7 @@
    "prezzo_centesimi": 990,
    "descrizione": "Fichi ricoperti di cioccolato fondente.",
    "descrizione_completa": "Fichi ricoperti di cioccolato fondente.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/fichi-cioccolato-200.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -376,7 +376,7 @@
    "prezzo_centesimi": 850,
    "descrizione": "Biscotti tradizionali glassati, tipici delle feste.",
    "descrizione_completa": "Biscotti tradizionali glassati, tipici delle feste.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/mostaccioli-250.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -395,7 +395,7 @@
    "prezzo_centesimi": 590,
    "descrizione": "Pasta fatta a mano tipica della Calabria.",
    "descrizione_completa": "Pasta fatta a mano tipica della Calabria.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/fileja-500.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -414,7 +414,7 @@
    "prezzo_centesimi": 550,
    "descrizione": "Legumi secchi da zuppe e contorni.",
    "descrizione_completa": "Legumi secchi da zuppe e contorni.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/fagioli-poverello-500.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -433,7 +433,7 @@
    "prezzo_centesimi": 1590,
    "descrizione": "Liquore dolce e piccante.",
    "descrizione_completa": "Liquore dolce e piccante.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/liquore-peperoncino-50cl.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -452,7 +452,7 @@
    "prezzo_centesimi": 1490,
    "descrizione": "Amaro alle erbe, da servire freddo.",
    "descrizione_completa": "Amaro alle erbe, da servire freddo.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/amaro-erbe-50cl.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -471,7 +471,7 @@
    "prezzo_centesimi": 1290,
    "descrizione": "Vino rosso calabrese da carni e salumi.",
    "descrizione_completa": "Vino rosso calabrese da carni e salumi.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/vino-rosso-75cl.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -490,7 +490,7 @@
    "prezzo_centesimi": 3990,
    "descrizione": "Selezione dei prodotti più richiesti ai festival.",
    "descrizione_completa": "Selezione dei prodotti più richiesti ai festival.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/box-festival.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -509,7 +509,7 @@
    "prezzo_centesimi": 2990,
    "descrizione": "'Nduja, crema di peperoncino, peperoncino e miele.",
    "descrizione_completa": "'Nduja, crema di peperoncino, peperoncino e miele.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/box-piccante.webp",
    "icona": "",
    "visibile": true,
    "tr": {
@@ -528,7 +528,7 @@
    "prezzo_centesimi": 4990,
    "descrizione": "Salumi, conserve, dolci e liquore in confezione regalo.",
    "descrizione_completa": "Salumi, conserve, dolci e liquore in confezione regalo.",
-   "immagine": "",
+   "immagine": "assets/images/prodotti/box-natale.webp",
    "icona": "",
    "visibile": true,
    "tr": {
